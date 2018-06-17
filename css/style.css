@@ -1,0 +1,70 @@
+/****************** General ******************/
+body {
+  background: #e5e9ea;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+/****************** Wrapper ******************/
+.wrapper {
+  background: #fff;
+  width: 350px;
+  margin: 0 auto;
+  padding: 40px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+/****************** Content ******************/
+h1 {
+  text-align: center;
+  color: #AB151C;
+  font-size: 1.4rem;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  text-align: center;
+  color: #777777;
+  line-height: 1.5rem;
+  margin: 0 0 25px 0;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+input[type="text"] {
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  background: #AB151C;
+  border: 1px solid #AB151C;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: background 0.5s;
+  -o-transition: background 0.5s;
+  transition: background 0.5s;
+  font-weight: 700;
+}
+
+input[type="submit"]:hover {
+  background: #930e13;
+}
